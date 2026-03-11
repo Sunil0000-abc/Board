@@ -20,6 +20,6 @@ jobs:
           username: ubuntu
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /Board
+            cd /home/ubuntu/Board
             git pull
             docker-compose up -d --build
