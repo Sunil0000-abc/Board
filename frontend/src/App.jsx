@@ -497,7 +497,7 @@ export default function PostGrid() {
         {/* HERO */}
         <div style={{ textAlign: "center", padding: "60px 20px 36px" }}>
           <h1 style={{ fontFamily: "'DM Serif Display', serif", fontSize: "clamp(2rem, 5vw, 3.2rem)", color: t.text, letterSpacing: "-0.02em", lineHeight: 1.15 }}>
-            See What's everyone sharing?
+            What's everyone sharing?
           </h1>
           <p style={{ marginTop: 10, color: t.textMuted, fontSize: "1rem", fontWeight: 300 }}>
             Thoughts, stories, and moments from the community
