@@ -140,11 +140,11 @@ function ThemeToggle({ dark, onToggle }) {
   const t = dark ? DARK : LIGHT;
   return (
     <button onClick={onToggle} style={{ background: dark ? "#1e1e2a" : "#f0ebe0", border: `1.5px solid ${dark ? "#3a3a55" : "#ddd5c4"}`, borderRadius: 50, cursor: "pointer", padding: "5px 12px", display: "flex", alignItems: "center", gap: 8, transition: "all 0.3s ease" }}>
-      <span style={{ fontSize: "0.9rem" }}>🌙Sun</span>
+      <span style={{ fontSize: "0.9rem" }}>🌙</span>
       <div style={{ width: 36, height: 20, borderRadius: 10, background: t.accent, position: "relative", transition: "background 0.3s" }}>
         <div style={{ position: "absolute", top: 3, left: dark ? 19 : 3, width: 14, height: 14, borderRadius: "50%", background: "#fff", transition: "left 0.3s ease", boxShadow: "0 1px 4px rgba(0,0,0,0.25)" }} />
       </div>
-      <span style={{ fontSize: "0.9rem" }}>☀️U</span>
+      <span style={{ fontSize: "0.9rem" }}>☀️</span>
     </button>
   );
 }
@@ -497,7 +497,7 @@ export default function PostGrid() {
         {/* HERO */}
         <div style={{ textAlign: "center", padding: "60px 20px 36px" }}>
           <h1 style={{ fontFamily: "'DM Serif Display', serif", fontSize: "clamp(2rem, 5vw, 3.2rem)", color: t.text, letterSpacing: "-0.02em", lineHeight: 1.15 }}>
-            What's everyone sharing?
+            See What's everyone sharing?
           </h1>
           <p style={{ marginTop: 10, color: t.textMuted, fontSize: "1rem", fontWeight: 300 }}>
             Thoughts, stories, and moments from the community
