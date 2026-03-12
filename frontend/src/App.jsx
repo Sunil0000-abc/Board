@@ -144,7 +144,7 @@ function ThemeToggle({ dark, onToggle }) {
       <div style={{ width: 36, height: 20, borderRadius: 10, background: t.accent, position: "relative", transition: "background 0.3s" }}>
         <div style={{ position: "absolute", top: 3, left: dark ? 19 : 3, width: 14, height: 14, borderRadius: "50%", background: "#fff", transition: "left 0.3s ease", boxShadow: "0 1px 4px rgba(0,0,0,0.25)" }} />
       </div>
-      <span style={{ fontSize: "0.9rem" }}>☀️</span>
+      <span style={{ fontSize: "0.9rem" }}>☀️U</span>
     </button>
   );
 }
